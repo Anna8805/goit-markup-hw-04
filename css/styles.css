@@ -229,6 +229,39 @@ img {
     justify-content: space-between; 
 }
 
+.list-item {
+    width: 270px;
+    height: 251px;
+}
+
+.list-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.icon-antenna::before {
+    background-image: url("../images/antenna.svg");
+}
+
+.icon-clock::before {
+    background-image: url("../images/clock.svg");
+}
+
+.icon-diagram::before {
+    background-image: url("../images/diagram.svg");
+}
+
+.icon-austronaut::before {
+    background-image: url("../images/austronaut.svg");
+}
+
 .features-subtitle {
     margin-bottom: 10px;
     width: 270px;
@@ -505,6 +538,10 @@ img {
     background: #fff;
 }
 
+.gallery-portfolio-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .gallery-portfolio-item:nth-last-child(-n + 3) {
     margin-bottom: 0;
 }
@@ -518,8 +555,8 @@ img {
 }
 
 .portfolio-container {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 21px;
+    padding-right: 21px;
     padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid #eee;
