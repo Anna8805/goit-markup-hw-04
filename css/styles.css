@@ -130,7 +130,8 @@ img {
     color: var(--main-text-color);
 }
 
-.header-contacts-link:hover .icon-envelope {
+.header-contacts-link:hover .icon-envelope,
+.header-contacts-link:focus .icon-envelope {
     fill: var(--accent-color);
 }
 
@@ -138,6 +139,7 @@ img {
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    fill: var(--main-text-color);
 }
 
 .header-contacts-link:hover .icon-smartphone {
@@ -148,6 +150,7 @@ img {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    fill: var(--main-text-color);
 }
 
 .navigation-list-link:hover,
@@ -305,7 +308,8 @@ img {
     background-color: #fff;
 }
 
-.social-list-link-light:hover {
+.social-list-link-light:hover,
+.social-list-link-light:focus {
     background-color: var(--accent-color);
 }
 
@@ -381,6 +385,7 @@ img {
     /* background-color: #e5e5e5; */
 }
 
+.customers-item-link:hover,
 .customers-item-link:hover {
     border: 1px solid  #2196F3 ;
 }
@@ -471,7 +476,8 @@ img {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-list-link-dark:hover {
+.social-list-link-dark:hover,
+.social-list-link-dark:focus {
     background-color: var(--accent-color);
 }
 
@@ -538,7 +544,8 @@ img {
     background: #fff;
 }
 
-.gallery-portfolio-item:hover {
+.gallery-portfolio-item:hover,
+.gallery-portfolio-item:focus { 
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
